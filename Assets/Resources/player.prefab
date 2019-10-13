@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 632033255}
   - component: {fileID: 632033257}
   - component: {fileID: 632033256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 890158729}
   - component: {fileID: 890158731}
   - component: {fileID: 890158730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HealthBar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 1273326636}
   - component: {fileID: 1273326638}
   - component: {fileID: 1273326637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HealthBarBackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 1688347356}
   - component: {fileID: 1688347355}
   - component: {fileID: 1688347354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046582732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerUi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 4270919143691055182}
   - component: {fileID: 4270919143691055176}
   - component: {fileID: 4270919143691055177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -528,7 +528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6818733147527163764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 6818733147604493907}
   - component: {fileID: 6818733147604493904}
   - component: {fileID: 6818733147604493905}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 6818733147902593773}
   - component: {fileID: 6818733147902593778}
   - component: {fileID: 6818733147902593779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 6818733148298563234}
   - component: {fileID: 6818733148298563239}
   - component: {fileID: 6818733148298563232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: leftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 6818733148592759202}
   - component: {fileID: 6818733148592759207}
   - component: {fileID: 6818733148592759200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +880,7 @@ GameObject:
   - component: {fileID: 8160743904621510156}
   - component: {fileID: 2174562871327525757}
   - component: {fileID: 8223767943436004161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -947,7 +947,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   turningAroundSensitevity: 5
+  jumpForce: 10
   playerCameraView: {fileID: 4270919143691055183}
+  jumpableLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!114 &7683906033619699951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,7 +1039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6818733148855656385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,6 +1073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: M4_Carbine
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 41cfbb7ead7c6bb47ae3dc09ab062536,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 41cfbb7ead7c6bb47ae3dc09ab062536,
         type: 3}
